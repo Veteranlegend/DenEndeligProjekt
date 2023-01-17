@@ -6,8 +6,13 @@ import java.awt.*;
 
 public class FieldList {
 
+
     private final Field[] fields = new Field[40];
 
+    /**
+     * Creates a array of fields that implements instanses of Start, Street, Chance, Tax, Ferry, Jail, Brewerry, Parking
+     * @return return an array of Fields that will be used to create the board in the gui.
+     */
     public Field[] CreateFieldList() {
         fields[0] = new Start("Start", "Start felt");
         fields[1] = new Street("Rødovrevej", "Rødorevej", 1200, 1000, new int[]{50, 250, 750, 2250, 4000, 6000}, Color.blue,2);
@@ -53,9 +58,19 @@ public class FieldList {
         return fields;
     }
 
+    /**
+     *
+     * @return Returns all the fields created as an array of Field objects
+     */
     public Field[] getFields() {
         return fields;
     }
+
+    /**
+     *
+     * @param index You can use index to get only one field
+     * @return returns a specified Field object
+     */
 
     public Field getField(int index){
         return fields[index];
