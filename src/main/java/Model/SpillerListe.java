@@ -26,16 +26,35 @@ public class SpillerListe {
     }
 
     //Getters and setters
+
+    /**
+     *
+     * @param id used identify the correct player to return
+     * @return Spiller returns a player given the index of the player in the array
+     */
     public Spiller getPlayerList(int id) { return players[id]; }
 
+    /**
+     * @param index used identify the correct player to return
+     * @return Spiller sets and returns a player given the index of the player in the array
+     */
     public Spiller setCurrentPlayer(int index){
         return currentPlayer = players[index];
     }
 
+    /**
+     *
+     * @return Spiller current player is returned
+     */
     public Spiller getCurrentPlayer(){
         return currentPlayer;
     }
 
+    /**
+     * Switches between players and sets a new currentplayer
+     * used at the end of each round
+     * @return returns the next player in the array
+     */
     public Spiller getNextPlayer(){
         currentPlayerID = (currentPlayerID + 1) % players.length;
         currentPlayer = players[currentPlayerID];
