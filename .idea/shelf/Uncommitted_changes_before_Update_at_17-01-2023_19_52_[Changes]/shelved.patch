@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,14 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="movetoferry fixed and finished">
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Account.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/ChanceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/ChanceCard.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveFieldAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveFieldAmount.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveToFerry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveToFerry.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Dice.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/SpillerListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/SpillerListe.java" afterDir="false" />
+-    </list>
++    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="movetoferry fixed and finished" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -36,18 +29,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+       <recent name="" />
