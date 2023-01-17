@@ -1,11 +1,8 @@
 package Model;
-import Model.Account;
 import Model.Fields.Field;
 import Model.Fields.Owneble;
 
-import java.util.ArrayList;
-
-public class Spiller {
+public class Dice {
     private String name;
     private final Account account;
     private int position = 0;
@@ -30,7 +27,7 @@ public class Spiller {
         this.name = name;
     }
 
-    public Spiller(String name, int startingBalance) {
+    public Dice(String name, int startingBalance) {
         this.name = name;
         this.account = new Account(startingBalance);
         this.position = 0;

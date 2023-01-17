@@ -1,7 +1,5 @@
 package Model;
 
-import java.sql.SQLOutput;
-
 public class Account {
 
     public int balance;
@@ -18,7 +16,7 @@ public class Account {
         return this.balance = balance;
     }
 
-    public static void pay(Account fromAccount, Account toAccount, int payAmount, Spiller spiller){
+    public static void pay(Account fromAccount, Account toAccount, int payAmount, Dice spiller){
 
         if (fromAccount.getBalance() > payAmount) {
             System.out.println("Player has payed " + payAmount);
@@ -38,7 +36,7 @@ public class Account {
         account.setBalance(account.getBalance() + amount);
     }
 
-    public static void withdraw(Account account, int amount, Spiller player){
+    public static void withdraw(Account account, int amount, Dice player){
         if (account.getBalance() > amount) {
             System.out.println("Players has payed: " + amount);
             account.setBalance(account.getBalance() - amount);
