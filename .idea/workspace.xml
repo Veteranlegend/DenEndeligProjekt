@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="Jeg har rettet og fået lavet min del af kode projektet!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Spiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Brewery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Chance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Ferry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Jail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Owneble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Street.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Fields/Tax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
