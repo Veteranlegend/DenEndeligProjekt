@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="Jeg har rettet og fået lavet min del af kode projektet!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Spiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="Added Commnets">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673976938976</updated>
       <workItem from="1673976941375" duration="2621000" />
-      <workItem from="1673980255439" duration="305000" />
+      <workItem from="1673980255439" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673977696188</created>
@@ -87,7 +86,49 @@
       <option name="project" value="LOCAL" />
       <updated>1673979555388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chancecard fixed">
+      <created>1673980591514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980591514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Chancecard fixed">
+      <created>1673980690617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980690617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Movefieldamount changes">
+      <created>1673980849873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980849873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="movetoferry fixed and finished">
+      <created>1673980978691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980978691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Commnets">
+      <created>1673981400769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673981400769</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Commnets">
+      <created>1673981529454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673981529454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +148,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Jeg har fikset min kode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jeg har fikset min kode" />
+    <MESSAGE value="Chancecard fixed" />
+    <MESSAGE value="Movefieldamount changes" />
+    <MESSAGE value="movetoferry fixed and finished" />
+    <MESSAGE value="Added Commnets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Commnets" />
   </component>
 </project>
