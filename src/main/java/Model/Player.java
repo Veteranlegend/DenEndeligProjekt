@@ -27,7 +27,7 @@ public class Player {
         this.name = name;
     }
 
-    public Dice(String name, int startingBalance) {
+    public Player(String name, int startingBalance) {
         this.name = name;
         this.account = new Account(startingBalance);
         this.position = 0;
