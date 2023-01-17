@@ -2,7 +2,7 @@ package Model;
 import Model.Fields.Field;
 import Model.Fields.Owneble;
 
-public class Dice {
+public class Player {
     private String name;
     private final Account account;
     private int position = 0;
