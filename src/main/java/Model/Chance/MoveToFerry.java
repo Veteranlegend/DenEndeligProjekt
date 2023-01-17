@@ -1,6 +1,6 @@
 package Model.Chance;
 
-import Model.Spiller;
+import Model.Dice;
 import View.ViewGUI;
 
 public class MoveToFerry extends ChanceCard {
@@ -9,7 +9,7 @@ public class MoveToFerry extends ChanceCard {
     }
 
     @Override
-    public void doCard(Spiller player, ViewGUI gui) {
+    public void doCard(Dice player, ViewGUI gui) {
         super.doCard(player, gui);
 
         if(35 < player.getPosition() && player.getPosition() < 5){

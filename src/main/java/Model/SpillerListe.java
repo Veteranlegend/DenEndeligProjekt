@@ -1,14 +1,9 @@
 package Model;
 
-import Model.Account;
-import Model.Spiller;
-
-import java.awt.*;
-
 public class SpillerListe {
 
-    Spiller[] players;
-    Spiller currentPlayer;
+    Dice[] players;
+    Dice currentPlayer;
     int playerAmount;
     int currentPlayerID;
 
@@ -18,9 +13,9 @@ public class SpillerListe {
      */
     public SpillerListe(int playerAmount){
         this.playerAmount = playerAmount;
-        players = new Spiller[playerAmount];
+        players = new Dice[playerAmount];
         for (int i = 0; i < playerAmount; i++) {
-            players[i] = new Spiller(null,3000);
+            players[i] = new Dice(null,3000);
             players[i].setPlayerNumber(i);
         }
     }
@@ -32,13 +27,13 @@ public class SpillerListe {
      * @param id used identify the correct player to return
      * @return Spiller returns a player given the index of the player in the array
      */
-    public Spiller getPlayerList(int id) { return players[id]; }
+    public Dice getPlayerList(int id) { return players[id]; }
 
     /**
      * @param index used identify the correct player to return
      * @return Spiller sets and returns a player given the index of the player in the array
      */
-    public Spiller setCurrentPlayer(int index){
+    public Dice setCurrentPlayer(int index){
         return currentPlayer = players[index];
     }
 
@@ -46,7 +41,7 @@ public class SpillerListe {
      *
      * @return Spiller current player is returned
      */
-    public Spiller getCurrentPlayer(){
+    public Dice getCurrentPlayer(){
         return currentPlayer;
     }
 
@@ -55,7 +50,7 @@ public class SpillerListe {
      * used at the end of each round
      * @return returns the next player in the array
      */
-    public Spiller getNextPlayer(){
+    public Dice getNextPlayer(){
         currentPlayerID = (currentPlayerID + 1) % players.length;
         currentPlayer = players[currentPlayerID];
         return currentPlayer;

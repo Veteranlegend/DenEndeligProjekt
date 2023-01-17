@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="Movefieldamount changes" />
+    <list default="true" id="c1ad23a9-2037-4e54-b73e-270fb123e716" name="Changes" comment="movetoferry fixed and finished">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/ChanceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/ChanceCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveFieldAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveFieldAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveToFerry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Chance/MoveToFerry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/SpillerListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/SpillerListe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673976938976</updated>
       <workItem from="1673976941375" duration="2621000" />
-      <workItem from="1673980255439" duration="615000" />
+      <workItem from="1673980255439" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673977696188</created>
@@ -92,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673980849873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="movetoferry fixed and finished">
+      <created>1673980978691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673980978691</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +128,7 @@
     <MESSAGE value="Jeg har fikset min kode" />
     <MESSAGE value="Chancecard fixed" />
     <MESSAGE value="Movefieldamount changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movefieldamount changes" />
+    <MESSAGE value="movetoferry fixed and finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="movetoferry fixed and finished" />
   </component>
 </project>
