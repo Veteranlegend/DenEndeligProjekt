@@ -6,7 +6,7 @@ import gui_fields.*;
 import gui_main.GUI;
 
 import java.awt.*;
-
+// GUI kodning
 
 public class BoardGUI {
     public GUI_Field[] gui_fields;
