@@ -75,3 +75,4 @@ public class Spil {
                         spiller.setJail(false);
                     }
                 }
+}//geh
